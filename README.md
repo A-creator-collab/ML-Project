@@ -51,7 +51,14 @@ Roadmap
     □
 
     Model improvements
+## Roadmap
 
+- [x] Dataset exploration
+- [x] Data preprocessing pipeline
+- [ ] Visualization notebook
+- [ ] Baseline classification model
+- [ ] Model evaluation
+- [ ] Model improvements
 Author
 
 Atharv Singh
