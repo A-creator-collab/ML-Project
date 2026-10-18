@@ -55,7 +55,7 @@ Roadmap
 
 - [x] Dataset exploration
 - [x] Data preprocessing pipeline
-- [ ] Visualization notebook
+- [x] Visualization notebook
 - [ ] Baseline classification model
 - [ ] Model evaluation
 - [ ] Model improvements
