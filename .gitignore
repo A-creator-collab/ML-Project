@@ -8,3 +8,7 @@ data/processed/*
 !data/raw/.gitkeep
 !data/processed/.gitkeep
 .DS_Store
+
+# Models
+models/*
+!models/.gitkeep
