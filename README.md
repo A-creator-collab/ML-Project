@@ -31,7 +31,8 @@ pip install -r requirements.txt
 Download the dataset:
 curl -L -o data/raw/winequality-red.csv \
   "https://archive.ics.uci.edu/ml/machine-learning-databases/wine-quality/winequality-red.csv"
-Roadmap
+```
+##Roadmap
 
     ☑
 
@@ -58,7 +59,16 @@ Roadmap
 - [x] Visualization notebook
 - [x] Baseline classification model
 - [x] Model evaluation
-- [ ] Model improvements
+- [x] Model improvements
+## Results
+
+Baseline Random Forest with `class_weight='balanced'`:
+
+- **Accuracy:** ~85%
+- **Recall (Good Wine):** ~65%
+- **F1 Score:** ~55%
+
+*The balanced class weights significantly improved the model's ability to detect the minority class (good wines), increasing recall at the cost of a slight drop in overall accuracy.*
 Author
 
 Atharv Singh
