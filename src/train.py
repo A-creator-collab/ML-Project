@@ -27,10 +27,12 @@ def main():
     X = df.drop(columns=["is_good"])
     y = df["is_good"]
     print(f"Features: {X.shape[1]}, Samples: {X.shape[0]}")
-
-    print("Training Random Forest classifier...")
-    # We use 100 trees and a fixed random_state for reproducibility
-    clf = RandomForestClassifier(n_estimators=100, random_state=42)
+    print("Training Random Forest classifier (with balanced class weights)...")
+    clf = RandomForestClassifier(
+    n_estimators=100, 
+    random_state=42, 
+    class_weight="balanced"  # This tells the model to care about the minority class
+)
     clf.fit(X, y)
 
     os.makedirs(model_dir, exist_ok=True)
