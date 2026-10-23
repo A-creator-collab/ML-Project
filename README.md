@@ -69,6 +69,9 @@ Baseline Random Forest with `class_weight='balanced'`:
 - **F1 Score:** ~55%
 
 *The balanced class weights significantly improved the model's ability to detect the minority class (good wines), increasing recall at the cost of a slight drop in overall accuracy.*
+## Documentation
+
+- [Experiment Log](docs/experiment_log.md) — Detailed record of models, metrics, and observations.
 Author
 
 Atharv Singh
